@@ -5,6 +5,6 @@
     <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
   </PropertyGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Patreon.Net\Patreon.Net.csproj" />
+    <ProjectReference Include="..\Patreon.Net.Core\Patreon.Net.Core.csproj" />
   </ItemGroup>
 </Project>

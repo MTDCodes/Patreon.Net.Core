@@ -1,6 +1,6 @@
 ﻿using Newtonsoft.Json;
 
-namespace Patreon.Net.Models
+namespace Patreon.Net.Core.Models
 {
     public class Links
     {

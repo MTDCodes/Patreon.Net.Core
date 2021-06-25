@@ -7,9 +7,9 @@ using System.Threading.Tasks;
 using JsonApiSerializer;
 using JsonApiSerializer.JsonApi;
 using Newtonsoft.Json;
-using Patreon.Net.Models;
+using Patreon.Net.Core.Models;
 
-namespace Patreon.Net
+namespace Patreon.Net.Core
 {
     public class PatreonClient : IDisposable
     {

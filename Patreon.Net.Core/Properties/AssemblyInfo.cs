@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
 [assembly: AssemblyTitle("Patreon.NET")]
-[assembly: AssemblyDescription("")]
+[assembly: AssemblyDescription("Originally created for .NET Framework by Neos-Metaverse, Patreon.Net.Core was brought over to .NET 5, and additional functionality will be added over time.")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("Patreon.NET")]
-[assembly: AssemblyCopyright("Copyright ©  2018")]
+[assembly: AssemblyCompany("MTDCodes")]
+[assembly: AssemblyProduct("Patreon.Net.Core")]
+[assembly: AssemblyCopyright("Copyright ©  2021")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 

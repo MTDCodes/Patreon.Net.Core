@@ -1,11 +1,16 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.27428.2037
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31205.134
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Patreon.Net", "Patreon.Net\Patreon.Net.csproj", "{6C4B7D70-FE66-416C-BEA8-71BAB475250F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Patreon.Net.Core", "Patreon.Net.Core\Patreon.Net.Core.csproj", "{6C4B7D70-FE66-416C-BEA8-71BAB475250F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Testing", "Testing\Testing.csproj", "{B0FAD899-F342-4472-A0D7-A3F40A596B8D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Testing", "Testing\Testing.csproj", "{B0FAD899-F342-4472-A0D7-A3F40A596B8D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SolutionItems", "SolutionItems", "{67AD9DCC-5D83-4001-8FD8-759FA007B6B6}"
+	ProjectSection(SolutionItems) = preProject
+		.github\workflows\dotnet.yml = .github\workflows\dotnet.yml
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

@@ -10,7 +10,7 @@ namespace Testing
 
         static async Task Main(string[] args)
         {
-            var patreon = new Patreon.Net.PatreonClient(AccessToken);
+            var patreon = new Patreon.Net.Core.PatreonClient(AccessToken);
             //var pledges = await patreon.GetCampaignPledges(CAMPAIGN_ID);
             var members = await patreon.GetCampaignMembers(CampaignId);
             //var campaign = await patreon.GetCampaign(CAMPAIGN_ID);
