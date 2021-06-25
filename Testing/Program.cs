@@ -5,8 +5,8 @@ namespace Testing
 {
     class Program
     {
-        const string CampaignId = "CAMPAIGN_ID";
-        const string AccessToken = "ACCESS_TOKEN";
+        private const string CampaignId = "CAMPAIGN_ID";
+        private const string AccessToken = "ACCESS_TOKEN";
 
         static async Task Main(string[] args)
         {
